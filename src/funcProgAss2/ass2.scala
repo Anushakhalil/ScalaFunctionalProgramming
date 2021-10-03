@@ -2,7 +2,7 @@ package funcProgAss2
 
 import scala.util.Random
 
-object ass1 {
+object ass2 {
 
   def Ex_1 = {
 
