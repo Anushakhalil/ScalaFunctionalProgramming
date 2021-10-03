@@ -4,12 +4,14 @@ object file1 extends App {
   def factorial(n: Int) : Int = {
     if (n != 0) n * factorial(n - 1) else 1
   }
+
   def fibonacci(n: Int) : Int = {
     if (n <=1 ) n
     else {
       fibonacci(n - 1) + fibonacci(n - 2)
     }
     }
+
   class Novel(val name: String,val year: Int,val author :Writes ){
     def authorAge(): Unit ={
       println(2021-this.author.year)
